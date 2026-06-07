@@ -8,149 +8,619 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-XZVYHDFXBR');
   </script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="Amarendra Sharma is a Front-End Engineer with 6+ years of experience in Vue, React, Next.js, TypeScript. Skilled in building scalable, optimized, and responsive web application">
+    content="Amarendra Sharma is a Full-Stack Developer with 6+ years of experience building responsive, accessible, and scalable web applications with Vue.js, React, Node.js, and modern web technologies.">
   <meta name="theme-color" content="#CDCDFF" />
-  <title>Amarendra Sharma - Software Engineer</title>
+  <title>Amarendra Sharma - Full-Stack Developer</title>
+
   <link rel="stylesheet" href="./assets/output.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/custom.css">
+
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
   <link rel="manifest" href="./assets/favicon/site.webmanifest">
-  <style>
-    body {
-      font-family: 'IBM Plex Mono', monospace;
-    }
-
-    .font-header {
-      font-family: 'Roboto Slab', serif;
-    }
-  </style>
 </head>
 
-<body bgcolor="#fff9f4">
+<body class="antialiased selection:bg-blue-600 selection:text-white">
 
-  <div class="container my-auto mx-auto px-2 print:px-0 max-w-3xl py-4">
+  <!-- Ambient Top Glow Background -->
+  <div class="time-gradient fixed inset-x-0 top-0 h-[220px] pointer-events-none z-0 overflow-hidden"></div>
 
-    <header class="mb-3 sm:mb-5">
-      <div class="sm:flex justify-between items-center">
-        <div class="font-header mb-1">
-          <h1 class="text-3xl sm:text-4xl font-semibold text-slate-800">Amarendra Sharma</h1>
-          <p class="text-lg text-slate-500 mt-1">Front-End Engineer | Web Crafter</p>
-        </div>
-      </div>
-    </header>
-    <main>
-      <section class="mb-3 sm:mb-5">
+  <!-- Desktop Vertical Floating Navigation Bar (Left Docked) -->
+  <nav class="sidebar-nav">
+    <a class="nav-item active" href="#home" aria-label="Go to Home">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+      </svg>
+      <span class="nav-label">Home</span>
+    </a>
+    <a class="nav-item" href="#about" aria-label="Go to About">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+      </svg>
+      <span class="nav-label">About</span>
+    </a>
+    <a class="nav-item" href="#experience" aria-label="Go to Experience">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+      </svg>
+      <span class="nav-label">Work</span>
+    </a>
+    <!-- <a class="nav-item" href="#writing" aria-label="Go to Writing & Blogs">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+      </svg>
+      <span class="nav-label">Writing</span>
+    </a> -->
+    <a class="nav-item" href="#connect" aria-label="Go to Connect">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+      </svg>
+      <span class="nav-label">Connect</span>
+    </a>
+    <div class="nav-divider"></div>
+    <a class="nav-item theme-toggle" href="#" aria-label="Toggle Dark Mode">
+      <svg class="dark:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+        stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+      </svg>
+      <svg class="hidden dark:block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m12.728 12.728l.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z" />
+      </svg>
+      <span class="nav-label">Theme</span>
+    </a>
+  </nav>
 
-        <div class="mt-2 text-slate-800 sm:text-lg tracking-tight text-base">
-          <div class=" max-w-3xl mx-auto text-slate-800 sm:text-lg tracking-tight">
-            <p class="mt-4 leading-relaxed">
-              Hello, and welcome to my web portfolio! I’m a 
-              <span class="font-semibold text-gray-800">Front-End Engineer</span> with over 6 years of experience, dedicated to building responsive, accessible, and scalable web applications. 
-              My expertise lies in using frameworks like 
-              <span class="font-semibold text-blue-600">Vue.js</span>, 
-              <span class="font-semibold text-blue-600">Nuxt.js</span>, 
-              <span class="font-semibold text-blue-600">React</span>, and 
-              <span class="font-semibold text-blue-600">Next.js</span>, 
-              paired with styling through 
-              <span class="font-semibold text-blue-600">Tailwind CSS</span> and 
-              <span class="font-semibold text-blue-600">Bootstrap</span>.
-              I focus on creating optimized, search-friendly applications that enhance user engagement
-            </p>
-            <p class="mt-4 leading-relaxed">
-              Based in 
-              <span class="font-semibold text-gray-800">India</span>, I tackle diverse frontend engineering challenges to craft innovative solutions every day.
+  <!-- Mobile Bottom Floating Navigation Bar -->
+  <nav class="mobile-nav">
+    <div class="mobile-nav-container">
+      <a class="mobile-nav-item active" href="#home" aria-label="Home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+        </svg>
+      </a>
+      <a class="mobile-nav-item" href="#about" aria-label="About">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+        </svg>
+      </a>
+      <a class="mobile-nav-item" href="#experience" aria-label="Experience">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        </svg>
+      </a>
+      <!-- <a class="mobile-nav-item" href="#writing" aria-label="Writing">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+        </svg>
+      </a> -->
+      <a class="mobile-nav-item" href="#connect" aria-label="Connect">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+        </svg>
+      </a>
+      <div class="mobile-nav-divider"></div>
+      <a class="mobile-nav-item theme-toggle" href="#" aria-label="Toggle Theme">
+        <svg class="dark:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+          stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+        </svg>
+        <svg class="hidden dark:block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+          stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m12.728 12.728l.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z" />
+        </svg>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Main Content Column -->
+  <main class="relative z-10 flex justify-center pb-20">
+    <div class="main-content-wrapper w-full max-w-3xl px-6 pt-16 sm:px-8 flex flex-col gap-16">
+
+      <!-- SECTION: HOME -->
+      <section id="home" class="flex flex-col gap-4 scroll-animate">
+
+        <div class="flex flex-col gap-1.5">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <h1 class="reveal-title text-3xl sm:text-4xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
+              Amarendra Sharma
+            </h1>
+            <!-- Interactive Live Status Badge -->
+            <div class="availability-badge" title="Click to view contact options">
+              <span class="pulse-beacon">
+                <span class="ping-ring"></span>
+                <span class="core-dot"></span>
+              </span>
+              <div class="badge-text-scroller">
+                <div class="badge-text-track">
+                  <span class="badge-text-item">Listening to 'Eiya Okomani Aamare Prithivi'</span>
+                  <span class="badge-text-item">Based in India 🇮🇳 • GMT+5:30</span>
+                  <span class="badge-text-item">Listening to 'Eiya Okomani Aamare Prithivi'</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-wrap items-center justify-between gap-2 mt-1">
+            <p class="text-zinc-600 dark:text-zinc-400 text-lg font-medium font-header">
+              Full-Stack Developer
             </p>
           </div>
-          
         </div>
 
+        <div class="flex flex-col gap-5 text-zinc-800 dark:text-zinc-200 sm:text-base leading-relaxed">
+          <p>
+            I'm a <span class="relative px-1.5 py-0.5 rounded-sm box-decoration-clone"><span aria-hidden="true"
+                class="absolute inset-0 rounded-sm highlight-fade"></span><span class="relative">Full-Stack
+                Developer</span></span> with <span class="relative px-1.5 py-0.5 rounded-sm box-decoration-clone"><span
+                aria-hidden="true" class="absolute inset-0 rounded-sm highlight-fade"></span><span class="relative">8+
+                years of
+                experience</span></span> building responsive, accessible, and scalable web applications. I combine
+            strong technical expertise with a product mindset — crafting interfaces that feel fast, polished, and
+            intuitive, while engineering backends that are reliable and maintainable.
+          </p>
+          <p>
+            My work spans both frontend and backend development. My technical expertise centers on
+            <span class="relative px-1.5 py-0.5 rounded-sm box-decoration-clone"><span aria-hidden="true"
+                class="absolute inset-0 rounded-sm highlight-fade"></span><span class="relative">Vue.js, Nuxt.js,
+                React, Next.js, TypeScript, Node.js, Express.js, PostgreSQL, and MongoDB</span></span>. I focus on
+            creating high-performance applications optimized for SEO, server-side rendering (SSR), and exceptional user
+            experiences across every device.
+          </p>
+          <p>
+            I specialize in orchestrating <span class="relative px-1.5 py-0.5 rounded-sm box-decoration-clone"><span
+                aria-hidden="true" class="absolute inset-0 rounded-sm highlight-fade"></span><span
+                class="relative">Progressive Web Apps
+                (PWAs)</span></span> and <span class="relative px-1.5 py-0.5 rounded-sm box-decoration-clone"><span
+                aria-hidden="true" class="absolute inset-0 rounded-sm highlight-fade"></span><span
+                class="relative">microfrontend
+                architectures</span></span>, implementing real-time, integrated solutions tailored to business needs.
+            Accessibility, performance, and clean code aren't afterthoughts — they're built into every layer.
+          </p>
+        </div>
 
+        <!-- Call to Actions -->
+        <div class="cta-container flex flex-wrap items-center gap-x-4 mt-8 mb-8">
+          <a class="action-btn-primary mr-4" href="./assets/Resume-Amarendra.pdf" target="_blank"
+            aria-label="View Resume PDF in new tab">
+            Resume
+          </a>
+
+          <button type="button" class="action-btn-secondary copy-email-btn" data-email="s.amarendra1995@gmail.com"
+            aria-label="Copy my email address">
+            <span class="relative w-5 h-5 flex items-center justify-center">
+              <svg
+                class="copy-icon absolute transition-all duration-300 opacity-100 scale-100 w-4 h-4 text-zinc-400 dark:text-zinc-500"
+                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+                <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1" />
+              </svg>
+              <svg
+                class="check-icon absolute transition-all duration-300 opacity-0 scale-75 w-4 h-4 text-emerald-500 dark:text-emerald-400"
+                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                stroke-width="2">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+            </span>
+            <span class="copy-label">Copy email</span>
+          </button>
+        </div>
 
       </section>
 
-      <section class="flex flex-col-reverse sm:flex-row sm:justify-between sm:text-lg">
+      <!-- SECTION: ABOUT -->
+      <section id="about"
+        class="flex flex-col gap-6 scroll-animate border-t border-zinc-200/50 dark:border-zinc-800/50 pt-10">
         <div>
-          <div class="flex gap-10 sm:justify-between">
-            <div class="mb-3 sm:mb-5">
-              <div class="text-slate-400 font-semibold mb-1">Links</div>
-              <div class="text-blue-600">
-                <a class="block p-1 pl-0 transition  ease-in-out delay-150 0 hover:-translate-y-1 hover:scale-110  "
-                  aria-label="view my resume in a new tab" href="./assets/Resume-Amarendra.pdf" target="_blank">Resume</a>
-                <a class="block p-1 pl-0 transition  ease-in-out delay-150 0 hover:-translate-y-1 hover:scale-110  "
-                  aria-label="visit my github account" href="https://github.com/amarendrasharma">Github</a>
+          <h2 class="text-xs font-mono font-semibold text-zinc-400 dark:text-zinc-500 uppercase tracking-widest mb-2">
+            About
+          </h2>
+          <h3 class="font-header font-bold text-lg text-zinc-800 dark:text-zinc-200 mb-3 leading-snug">
+            Tech Stack &amp; Expertise
+          </h3>
+          <p class="text-zinc-700 dark:text-zinc-300 sm:text-base leading-relaxed mb-5">
+            I work across the full stack — from pixel-perfect UIs to scalable APIs and databases. Here's what I bring to
+            the table:
+          </p>
 
-                <a class="block p-1 pl-0 transition  ease-in-out delay-150 0 hover:-translate-y-1 hover:scale-110  "
-                aria-label="visit my codepen account"   href="https://codepen.io/amarendrasharma">Codepen</a>
-              </div>
-            </div>
-            <div class="mb-3 sm:mb-5">
-              <div class="text-slate-400 font-semibold mb-1">Connect</div>
-              <div class="text-blue-600">
-                <a class="block p-1 pl-0 transition  ease-in-out delay-150 0 hover:-translate-y-1 hover:scale-110  "
-                  aria-label="visit my linkedin account"
-                  href="https://www.linkedin.com/in/amarendra-sharma/">LinkedIn</a>
-                <a class="block p-1 pl-0 transition  ease-in-out delay-150 0 hover:-translate-y-1 hover:scale-110  "
-                  aria-label="visit my twitter account" href="https://twitter.com/developer_amar">Twitter</a>
-
-
-              </div>
-            </div>
-          </div>
-
-          <div class="mb-2">
-            <div class="mb-1 font-semibold"><span class="text-slate-400">Long Story Short</span> <a
-                href="https://amarendra.dev/blog.html" class="text-sm  bg-yellow-200 float-right px-2">View all
-                &#8594;</a></div>
-            <div class="text-blue-600">
-              <a class="block p-1 pl-0"
-                href="https://dev.to/amarendrasharma/media-query-screen-range-with-operator-short-and-easy-327c">Media
-                Query- easy and short syntax<span class="ml-2 text-slate-300">Screen Range With Operator
-                </span></a>
-             
-
+          <!-- Frontend -->
+          <div class="skill-group mb-5">
+            <p
+              class="text-[11px] font-mono font-semibold text-zinc-400 dark:text-zinc-500 uppercase tracking-widest mb-2">
+              Frontend</p>
+            <div class="skills-container">
+              <span>Vue.js</span>
+              <span>Nuxt.js</span>
+              <span>React.js</span>
+              <span>Next.js</span>
+              <span>TypeScript</span>
+              <span>JavaScript</span>
+              <span>Tailwind CSS</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
             </div>
           </div>
 
+          <!-- Backend & Databases -->
+          <div class="skill-group mb-5">
+            <p
+              class="text-[11px] font-mono font-semibold text-zinc-400 dark:text-zinc-500 uppercase tracking-widest mb-2">
+              Backend &amp; Databases</p>
+            <div class="skills-container">
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>PostgreSQL</span>
+              <span>MongoDB</span>
+              <span>REST APIs</span>
+            </div>
+          </div>
+
+          <!-- State Management & Testing -->
+          <div class="skill-group mb-5">
+            <p
+              class="text-[11px] font-mono font-semibold text-zinc-400 dark:text-zinc-500 uppercase tracking-widest mb-2">
+              State &amp; Testing</p>
+            <div class="skills-container">
+              <span>Vuex</span>
+              <span>Pinia</span>
+              <span>Redux</span>
+              <span>Playwright</span>
+            </div>
+          </div>
+
+          <!-- Architecture & Patterns -->
+          <div class="skill-group">
+            <p
+              class="text-[11px] font-mono font-semibold text-zinc-400 dark:text-zinc-500 uppercase tracking-widest mb-2">
+              Architecture &amp; Patterns</p>
+            <div class="skills-container">
+              <span>PWAs</span>
+              <span>Microfrontends</span>
+              <span>SSR / SSG</span>
+              <span>SEO Optimization</span>
+              <span>Accessibility (a11y)</span>
+              <span>Performance</span>
+            </div>
+          </div>
         </div>
       </section>
-    </main>
 
+      <!-- SECTION: EXPERIENCE -->
+      <section id="experience"
+        class="flex flex-col gap-4 scroll-animate border-t border-zinc-200/50 dark:border-zinc-800/50 pt-10">
+        <h2 class="text-xs font-mono font-semibold text-zinc-400 dark:text-zinc-500 uppercase tracking-widest mb-1">
+          Experience
+        </h2>
+        <div class="flex flex-col gap-10">
 
-  </div>
+          <!-- ── Company 1: First Due ── -->
+          <div class="exp-company-block">
+            <div class="exp-company-header">
+              <div>
+                <p class="exp-company-name">First Due</p>
+                <p class="exp-company-meta">Software Engineer · Hyderabad</p>
+              </div>
+              <span class="exp-date-pill is-current">03/2024 – Present</span>
+            </div>
+            <div class="experience-card">
+              <ul class="exp-bullets">
+                <li>Member of the platform team, building cross-product capabilities including shared UI components,
+                  redesign, and upgrade of a legacy codebase.</li>
+                <li>Drive engineering standards around accessibility, automated testing, observability, performance, and
+                  safe rollout practices.</li>
+                <li>Use AI-assisted development to improve velocity while maintaining secure implementation practices,
+                  peer review discipline, and production readiness.</li>
+              </ul>
+              <div class="exp-tags-row">
+                <span class="exp-tag">Vue.js</span>
+                <span class="exp-tag">Vuex</span>
+                <span class="exp-tag">PHP / Yii</span>
+                <span class="exp-tag">PostgreSQL</span>
+                <span class="exp-tag">Webpack</span>
+                <span class="exp-tag">Playwright</span>
+                <span class="exp-tag">Cursor.ai</span>
+              </div>
+            </div>
+          </div>
 
+          <!-- ── Company 2: Nichi-In ── -->
+          <div class="exp-company-block">
+            <div class="exp-company-header">
+              <div>
+                <p class="exp-company-name">Nichi-In Software Solutions Pvt. Ltd.</p>
+                <p class="exp-company-meta">Senior Software Engineer · Bengaluru</p>
+              </div>
+              <span class="exp-date-pill">08/2020 – 12/2024</span>
+            </div>
+
+            <!-- Sub-project: PLC Tool -->
+            <div class="experience-card exp-project-card">
+              <p class="exp-project-title">PLC Tool</p>
+              <ul class="exp-bullets">
+                <li>Contributed to development of a PLC tool supporting various Mitsubishi PLCs (FXCPU/RCPU).</li>
+                <li>Built an intuitive interface for creating pipelines and deploying web applications communicating
+                  with PLC devices.</li>
+              </ul>
+              <div class="exp-tags-row">
+                <span class="exp-tag">React.js</span>
+                <span class="exp-tag">Redux</span>
+                <span class="exp-tag">Node.js</span>
+                <span class="exp-tag">WebSocket</span>
+                <span class="exp-tag">CSS</span>
+              </div>
+            </div>
+
+            <!-- Sub-project: TTalk -->
+            <div class="experience-card exp-project-card">
+              <p class="exp-project-title">TTalk</p>
+              <ul class="exp-bullets">
+                <li>Developed a real-time emergency communication platform for crisis management, integrating WebSocket
+                  for seamless monitoring and instant response capabilities.</li>
+                <li>Built an intuitive admin panel with real-time online/offline user status tracking to enhance system
+                  reliability and crisis response efficiency.</li>
+              </ul>
+              <div class="exp-tags-row">
+                <span class="exp-tag">Next.js</span>
+                <span class="exp-tag">React.js</span>
+                <span class="exp-tag">TypeScript</span>
+                <span class="exp-tag">Tailwind CSS</span>
+                <span class="exp-tag">AWS Amplify</span>
+                <span class="exp-tag">Node.js</span>
+              </div>
+            </div>
+
+            <!-- Sub-project: KINJITO -->
+            <div class="experience-card exp-project-card">
+              <p class="exp-project-title">KINJITO <span class="font-mono text-xs font-normal opacity-60">(キンジトウ)</span>
+              </p>
+              <ul class="exp-bullets">
+                <li>Built a web-based platform for job seekers with disabilities.</li>
+                <li>Developed backend services for job listings, user profiles, and welfare services.</li>
+              </ul>
+              <div class="exp-tags-row">
+                <span class="exp-tag">Vue.js</span>
+                <span class="exp-tag">Vuex</span>
+                <span class="exp-tag">Element UI</span>
+                <span class="exp-tag">Node.js</span>
+                <span class="exp-tag">Express.js</span>
+                <span class="exp-tag">MongoDB</span>
+              </div>
+            </div>
+
+            <!-- Sub-project: KANBEI -->
+            <div class="experience-card exp-project-card">
+              <p class="exp-project-title">KANBEI</p>
+              <ul class="exp-bullets">
+                <li>Web application for managing company expenses, monitoring investment plans, and requesting quotes
+                  from suppliers.</li>
+                <li>Developed scalable and reusable components for multilevel custom graphs using D3.js for analytics.
+                </li>
+              </ul>
+              <div class="exp-tags-row">
+                <span class="exp-tag">Vue.js</span>
+                <span class="exp-tag">Vuex</span>
+                <span class="exp-tag">D3.js</span>
+                <span class="exp-tag">CSS</span>
+                <span class="exp-tag">HTML5</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ── Company 3: Innoventes / KUVERA ── -->
+          <div class="exp-company-block">
+            <div class="exp-company-header">
+              <div>
+                <p class="exp-company-name">Innoventes Technology <span
+                    class="text-[11px] font-mono font-normal text-zinc-400 dark:text-zinc-500">(Consultant at
+                    KUVERA)</span></p>
+                <p class="exp-company-meta">Software Engineer · Bengaluru</p>
+              </div>
+              <span class="exp-date-pill">03/2020 – 08/2020</span>
+            </div>
+            <div class="experience-card">
+              <ul class="exp-bullets">
+                <li>Contributed to the redesign of the Mutual Fund section by developing scalable components for fund
+                  comparison and listing to enhance user experience.</li>
+                <li>Revamped the SIP and Lumpsum investment widget for improved functionality.</li>
+              </ul>
+              <div class="exp-tags-row">
+                <span class="exp-tag">Vue.js</span>
+                <span class="exp-tag">Vuex</span>
+                <span class="exp-tag">CSS</span>
+                <span class="exp-tag">HTML5</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ── Company 4: Sumato Globaltech ── -->
+          <div class="exp-company-block">
+            <div class="exp-company-header">
+              <div>
+                <p class="exp-company-name">Sumato Globaltech</p>
+                <p class="exp-company-meta">Software Engineer · Guwahati</p>
+              </div>
+              <span class="exp-date-pill">07/2018 – 03/2020</span>
+            </div>
+            <div class="experience-card">
+              <ul class="exp-bullets">
+                <li>Developed a monitoring SPA for the Irrigation Department, Government of Assam — designing APIs and
+                  documenting the development process.</li>
+                <li>Built web applications using Laravel, Vue.js, and React leveraging Bootstrap and Tailwind CSS.</li>
+              </ul>
+              <div class="exp-tags-row">
+                <span class="exp-tag">Vue.js</span>
+                <span class="exp-tag">React.js</span>
+                <span class="exp-tag">Laravel</span>
+                <span class="exp-tag">MySQL</span>
+                <span class="exp-tag">Bootstrap</span>
+                <span class="exp-tag">Tailwind CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION: WRITING -->
+      <!-- <section id="writing"
+        class="flex flex-col gap-4 scroll-animate border-t border-zinc-200/50 dark:border-zinc-800/50 pt-10">
+        <h2 class="text-xs font-mono font-semibold text-zinc-400 dark:text-zinc-500 uppercase tracking-widest mb-1">
+          Writing
+        </h2>
+
+        <div class="gooey-container -mx-3">
+          <div class="gooey-bg"></div>
+
+          <div class="flex flex-col gap-1">
+            <div class="gooey-item">
+              <a href="https://dev.to/amarendrasharma/media-query-screen-range-with-operator-short-and-easy-327c"
+                target="_blank" rel="noopener noreferrer"
+                class="list-item-card group flex flex-col sm:flex-row sm:justify-between sm:items-center py-2">
+                <span class="text-zinc-800 dark:text-zinc-200 font-medium font-header flex items-center gap-1.5">
+                  Media Query — Screen Range With Operators
+                  <svg class="link-arrow" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
+                <span class="text-xs text-zinc-400 dark:text-zinc-500 mt-1 sm:mt-0 font-mono">dev.to</span>
+              </a>
+            </div>
+            <div class="gooey-item">
+              <a href="./blog.html"
+                class="list-item-card group flex flex-col sm:flex-row sm:justify-between sm:items-center py-2">
+                <span class="text-zinc-800 dark:text-zinc-200 font-medium font-header flex items-center gap-1.5">
+                  View All Blog Articles &amp; Insights
+                  <svg class="link-arrow" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
+                <span class="text-xs text-zinc-400 dark:text-zinc-500 mt-1 sm:mt-0 font-mono">blog.html</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- SECTION: CONNECT -->
+      <section id="connect"
+        class="flex flex-col gap-4 scroll-animate border-t border-zinc-200/50 dark:border-zinc-800/50 pt-10">
+        <h2 class="text-xs font-mono font-semibold text-zinc-400 dark:text-zinc-500 uppercase tracking-widest mb-1">
+          Connect
+        </h2>
+
+        <div class="gooey-container -mx-3">
+          <div class="gooey-bg"></div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-1">
+            <div class="gooey-item">
+              <a href="https://www.linkedin.com/in/amarendra-sharma/" target="_blank" rel="noopener noreferrer"
+                class="list-item-card group flex items-center justify-between py-2">
+                <span class="text-zinc-800 dark:text-zinc-200 font-medium flex items-center gap-1.5">
+                  LinkedIn
+                  <svg class="link-arrow" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
+                <span class="text-xs text-zinc-400 dark:text-zinc-500 font-mono">Network</span>
+              </a>
+            </div>
+
+            <div class="gooey-item">
+              <a href="https://github.com/amarendrasharma" target="_blank" rel="noopener noreferrer"
+                class="list-item-card group flex items-center justify-between py-2">
+                <span class="text-zinc-800 dark:text-zinc-200 font-medium flex items-center gap-1.5">
+                  GitHub
+                  <svg class="link-arrow" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
+                <span class="text-xs text-zinc-400 dark:text-zinc-500 font-mono">Repos</span>
+              </a>
+            </div>
+
+            <div class="gooey-item">
+              <a href="https://twitter.com/developer_amar" target="_blank" rel="noopener noreferrer"
+                class="list-item-card group flex items-center justify-between py-2">
+                <span class="text-zinc-800 dark:text-zinc-200 font-medium flex items-center gap-1.5">
+                  Twitter / X
+                  <svg class="link-arrow" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
+                <span class="text-xs text-zinc-400 dark:text-zinc-500 font-mono">@developer_amar</span>
+              </a>
+            </div>
+
+            <div class="gooey-item">
+              <a href="https://codepen.io/amarendrasharma" target="_blank" rel="noopener noreferrer"
+                class="list-item-card group flex items-center justify-between py-2">
+                <span class="text-zinc-800 dark:text-zinc-200 font-medium flex items-center gap-1.5">
+                  CodePen
+                  <svg class="link-arrow" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
+                <span class="text-xs text-zinc-400 dark:text-zinc-500 font-mono">Snippets</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Minimal Footer -->
+  <footer class="footer-container">
+    <div class="footer-content">
+      <p>&copy; Amarendra Sharma 2026</p>
+      <p class="font-mono text-[10px] opacity-75">v2.0.0 · Full-Stack Developer · India</p>
+    </div>
+  </footer>
 
   <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "Person",
-          "name": "Amarendra Sharma",
-          "jobTitle": "Software Engineer",
-          "url": "https://amarendra.dev",
-          "sameAs": [
-            "https://www.linkedin.com/in/amarendra-sharma/",
-            "https://github.com/amarendrasharma",
-            "https://twitter.com/developer_amar"
-          ],
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Bengaluru",
-            "addressCountry": "India"
-          },
-          "description": "Front-End Engineer with over 6 years of experience specializing in Vue.js, Nuxt.js, React.js, and Next.js. Skilled in TypeScript and Progressive Web Apps."
-        }
-        </script>
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Amarendra Sharma",
+    "jobTitle": "Full-Stack Developer",
+    "email": "s.amarendra1995@gmail.com",
+    "url": "https://amarendra.dev",
+    "sameAs": [
+      "https://www.linkedin.com/in/amarendra-sharma/",
+      "https://github.com/amarendrasharma",
+      "https://twitter.com/developer_amar"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "India"
+    },
+    "description": "Full-Stack Developer with 6+ years of experience building responsive, accessible, and scalable web applications with Vue.js, React, Node.js, and modern web technologies."
+  }
+  </script>
+
+  <!-- Core Javascript Interactions -->
+  <script src="./assets/main.js"></script>
 
 </body>
 
